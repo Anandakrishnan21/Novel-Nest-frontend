@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import Header1 from "../components/Header1";
 import { inputs } from "../utils/constants";
+import Footer from "../components/Footer";
 
 const Update = () => {
   const [book, setBook] = useState({
@@ -78,6 +79,7 @@ const Update = () => {
           </form>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Header1 from "../components/Header1";
 import { inputs } from "../utils/constants";
+import Footer from "../components/Footer";
 
 function Create() {
   const [books, setBooks] = useState({
@@ -78,6 +79,7 @@ function Create() {
           </form>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
